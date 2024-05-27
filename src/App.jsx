@@ -13,7 +13,7 @@ import TodoFilter from './components/TodoFilter'
   { id:4, title: "Pick up groceries", completed:false },
   { id:5, title: "Complete todo app on Frontend Mentor", completed:false }
 ]*/
-const initialStateTodos=JSON.parse(localStorage.getItem("todos") || []);
+const initialStateTodos=JSON.parse(localStorage.getItem("todos")) || [];
 function App() {  
   const [todos, setTodos]=useState(initialStateTodos);
   const createToDo =(title)=>{
