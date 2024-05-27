@@ -56,10 +56,10 @@ function App() {
     bg-[url('./assets/images/bg-mobile-light.jpg')] bg-no-repeat bg-contain bg-gray-300 min-h-screen
     dark:bg-gray-500 dark:bg[url('./assets/images/bg-mobile-dark.jpg')] 
     md:bg-[url('./assets/images/bg-desktop-light.jpg')] 
-    md:dark:bg-[url('./assets/images/bg-desktop-dark.jpg')] md: max-w-xl">
+    md:dark:bg-[url('./assets/images/bg-desktop-dark.jpg')]">
     
     <Header />
-    <main className='container mx-auto px-4 mt-8 dark:bg-gray-900 md: max-w-xl'>
+    <main className='container mx-auto px-4 mt-8 dark:bg-gray-900 md:max-w-xl'>
      
       <TodoCreate createToDo={createToDo}/>
       
